@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const MainSpace = styled.main`
   display: flex;
   flex-direction: row;
-  height: auto;
+  min-height: 140vh;
   justify-content: space-between;
   height: auto;
 `;
