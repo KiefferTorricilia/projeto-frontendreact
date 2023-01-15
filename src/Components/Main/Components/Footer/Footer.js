@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleFooter } from "./styled";
+import { StyleFooter, StyleAncora } from "./styled";
 
 export function Footer() {
   return (
@@ -8,18 +8,18 @@ export function Footer() {
         <p>Criado por: Arthur Prado</p>
         <p>
           LinkedIn:
-          <a
+          <StyleAncora
             href="https://www.linkedin.com/in/arthur-matheus-prado-b74aa8181/"
             target="_blank"
           >
             Arthur Prado
-          </a>
+          </StyleAncora>
         </p>
         <p>
           GitHub:
-          <a href="https://github.com/TioArthurPrado" target="_blank">
+          <StyleAncora href="https://github.com/TioArthurPrado" target="_blank">
             Arthur Prado
-          </a>
+          </StyleAncora>
         </p>
       </StyleFooter>
     </footer>

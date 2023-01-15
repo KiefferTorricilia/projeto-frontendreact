@@ -8,3 +8,8 @@ export const StyleFooter = styled.div`
   color: white;
   background-color: black;
 `;
+
+export const StyleAncora = styled.a`
+  text-decoration: none;
+  color: lightblue;
+`;
