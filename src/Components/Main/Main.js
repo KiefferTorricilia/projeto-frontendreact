@@ -94,6 +94,7 @@ export function Main() {
           <Header
             abreCarrinho={abreCarrinho}
             setAbreCarrinho={setAbreCarrinho}
+            
           />
           <>
             {/* Renderização dos produtos abaixo */}
